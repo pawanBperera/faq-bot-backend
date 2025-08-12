@@ -1,0 +1,167 @@
+[
+  { "question": "How do I register as a recipient?", "answer": "Click 'Sign Up', choose 'Recipient', and complete the two-step registration (account + medical info). You'll then see your recipient dashboard." },
+  { "question": "How can I sign up as a recipient?", "answer": "Use the 'Sign Up' button, select 'Recipient', fill your basic details, then your health info to finish." },
+
+  { "question": "How do I become a donor?", "answer": "Donors are added by admins through verified clinics after medical screening. Contact a participating clinic to begin." },
+  { "question": "What is the process to become a donor?", "answer": "Start with a clinic visit. After screening and verification, the admin will create your donor account and share a temporary password." },
+  { "question": "How can I sign up to donate sperm?", "answer": "You cannot self-register. Contact a partner clinic; after verification the admin will onboard you as a donor." },
+
+  { "question": "What is the age requirement for donors?", "answer": "Donors must typically be 21–39 years old. Clinics may adjust limits based on screening outcomes." },
+  { "question": "Can I donate if I am under 21 or over 39?", "answer": "Generally no. Age limits exist for medical reasons. Please consult the clinic for edge cases." },
+
+  { "question": "How does donor-recipient matching work?", "answer": "Recipients shortlist donors. Admins review compatibility (including genetic risk) and approve or reject the match." },
+  { "question": "Who approves matches?", "answer": "Admins at verified clinics approve or reject matches based on medical and policy criteria." },
+  { "question": "What happens after a match is approved?", "answer": "Both parties are notified. The recipient should contact the clinic to plan the next steps." },
+  { "question": "What happens if a match is rejected?", "answer": "The match is removed. You can shortlist another donor and try again." },
+
+  { "question": "Is this system legal in Sri Lanka?", "answer": "The platform is designed to align with Sri Lankan medical guidelines and ethics. Always follow your clinic’s policies and local regulations." },
+  { "question": "Is anonymous donation supported?", "answer": "Yes, anonymity is supported where permitted. Actual disclosure rules depend on clinic policy and local law." },
+  { "question": "Are donor identities ever revealed?", "answer": "Donor identity remains private unless disclosure is mandated by applicable law or explicit consent is given." },
+
+  { "question": "What diseases are screened in donors?", "answer": "Clinics typically screen for inheritable conditions (e.g., thalassemia) and infectious diseases per policy." },
+  { "question": "Is thalassemia screening required?", "answer": "It is commonly included in Sri Lankan clinic screening. Follow the clinic’s medical protocol." },
+  { "question": "Do recipients need to submit medical history?", "answer": "Yes. Recipients provide medical details so admins can assess genetic compatibility and risks." },
+  { "question": "What if I have a disease history?", "answer": "Disclose it in your profile. It helps the admin assess compatibility and safety." },
+
+  { "question": "Can I contact the donor directly?", "answer": "No. Communication is mediated by clinics and admins to maintain privacy and compliance." },
+  { "question": "Can donors see recipient details?", "answer": "No. Personal identities are protected. Only necessary compatibility information is shared via admins." },
+
+  { "question": "How can a lawyer help?", "answer": "Lawyers listed in the system can advise on contracts, consent, and rights. Consult them before proceeding if needed." },
+  { "question": "Do I need legal advice to proceed?", "answer": "Not mandatory, but recommended—especially for agreements, consent, and cross-border questions." },
+
+  { "question": "Do I have to pay to use the platform?", "answer": "Registration is currently free. Clinic procedures, lab tests, and legal services may have separate fees." },
+  { "question": "Is donor compensation allowed?", "answer": "Compensation policies vary by clinic and law. Ask your clinic about what is permitted in your jurisdiction." },
+  { "question": "Are there any hidden fees?", "answer": "No hidden platform fees. Clinic and legal costs are separate and disclosed by the providers." },
+
+  { "question": "How do I reset my password?", "answer": "Log in and go to Account Settings → Change Password. If you lost access, use the 'Forgot Password' flow." },
+  { "question": "I did not receive the password reset email. What do I do?", "answer": "Check spam/junk, confirm your email, and try again. If still missing, contact support." },
+  { "question": "Can I change my account details later?", "answer": "Yes. Update your profile and password from your dashboard after logging in." },
+  { "question": "Can I delete my account?", "answer": "Contact support or your clinic admin to request account deletion. Some records may be retained to meet legal obligations." },
+
+  { "question": "Is my data safe on this system?", "answer": "We restrict access to authorized roles and use secure storage practices. Clinics handle medical records per policy and law." },
+  { "question": "Who can see my medical data?", "answer": "Only authorized clinic admins and medical reviewers can access it for compatibility assessment." },
+  { "question": "How long is my data retained?", "answer": "Retention follows clinic policy and legal requirements. Contact your clinic for specifics." },
+  { "question": "Do you share data with third parties?", "answer": "We do not sell personal data. Limited sharing may occur with clinics or legal advisors for service delivery, per consent and law." },
+
+  { "question": "Which file formats can I upload for medical reports?", "answer": "PDF, JPG, and PNG are commonly accepted. Follow the upload form’s guidance." },
+  { "question": "What is the maximum file size for uploads?", "answer": "Typically up to 10 MB per file. If your file is larger, compress it or split into multiple files." },
+
+  { "question": "How quickly are matches reviewed?", "answer": "Review times depend on clinic workload. You will receive a notification once the admin decides." },
+  { "question": "How do I know if my match is approved?", "answer": "You will see an in-app notification and the match will appear under 'Approved Matches' on your dashboard." },
+  { "question": "Why was my match rejected?", "answer": "Possible reasons include medical incompatibility, incomplete data, or policy constraints. Contact your clinic for details." },
+
+  { "question": "How often are donors screened?", "answer": "Initial screening is mandatory; periodic re-screening depends on clinic policy and time since last donation." },
+  { "question": "What tests are involved for donors?", "answer": "Typically infectious disease screening, semen analysis, blood tests, and checks for inheritable conditions per clinic protocol." },
+  { "question": "How many days of abstinence before giving a sample?", "answer": "Clinics commonly advise 2–3 days, but follow your clinic’s exact instructions." },
+
+  { "question": "Can same-sex couples use this system?", "answer": "Yes. The platform is inclusive for individuals and couples of all orientations." },
+  { "question": "Can single parents use this system?", "answer": "Yes. Single intended parents can register as recipients and proceed via clinics." },
+
+  { "question": "Is this platform connected to hospitals?", "answer": "Yes. Registered clinics and hospitals can verify users, review matches, and coordinate procedures." },
+  { "question": "How do clinics join the platform?", "answer": "Clinics apply for verification. Once approved, their admins can manage donors and match approvals." },
+
+  { "question": "Can international recipients use Sri Lankan donors?", "answer": "Cross-border usage depends on medical, legal, and logistics constraints. Consult your clinic and a lawyer." },
+  { "question": "Can donor samples be shipped internationally?", "answer": "This involves complex regulations. Work directly with a licensed clinic or cryobank and seek legal guidance." },
+  { "question": "Are international laws about donor anonymity different?", "answer": "Yes. Some countries require identity disclosure at a child’s request. Check your local laws before proceeding." },
+
+  { "question": "What is genetic compatibility in matching?", "answer": "It refers to minimizing the risk of inheritable conditions in offspring by comparing donor and recipient medical information." },
+  { "question": "Does approval guarantee a successful pregnancy?", "answer": "No. Approval addresses safety and compatibility, not success rates. Consult your clinician for medical guidance." },
+
+  { "question": "What should I do after receiving an approval?", "answer": "Contact your clinic immediately to schedule next steps and discuss timelines and costs." },
+  { "question": "Can I request more donor details?", "answer": "Admins may share non-identifying medical and profile info per policy. Identifying data is not shared." },
+
+  { "question": "I can’t log in to my account.", "answer": "Check your email and password, then try 'Forgot Password'. If blocked, contact support with your registered email." },
+  { "question": "I get a 403 or unauthorized error.", "answer": "Log out and back in, then retry. Ensure your role has access to the page. If it persists, contact support." },
+  { "question": "My donor cards are not loading.", "answer": "Refresh the page, clear cache, and verify you’re logged in with the correct role. If it continues, report the issue." },
+
+  { "question": "How do I shortlist a donor?", "answer": "Open a donor profile and click 'Save' or 'Shortlist'. It will appear on your matches page for admin review." },
+  { "question": "Where can I see my approved matches?", "answer": "Go to your recipient dashboard and open 'Your Approved Matches'." },
+
+  { "question": "Can I undo a rejected match?", "answer": "Admins can review and reverse decisions in rare cases. Request a review via your clinic." },
+  { "question": "Can I remove a donor from my shortlist?", "answer": "Yes. Use 'Remove from Shortlist' on your shortlist page to update it." },
+
+  { "question": "What if I entered the wrong medical info?", "answer": "Go to your profile and update it. If a match is pending or approved, inform your clinic so they can reassess." },
+  { "question": "How do I update my donor profile details?", "answer": "Donors can edit allowed fields; medical updates are usually handled through the clinic and admin review." },
+
+  { "question": "Is Sinhala or Tamil supported?", "answer": "English is the default. Sinhala and Tamil content is being added. Switch your language from the navigation bar once available." },
+  { "question": "Can I switch the site language?", "answer": "Yes. Use the language selector on supported pages to change between available languages." },
+
+  { "question": "How do notifications work?", "answer": "You’ll see in-app notifications. Email or SMS may also be used depending on your settings and clinic policy." },
+  { "question": "Can I turn off notifications?", "answer": "You can mute optional notifications, but critical medical or match updates may still be sent." },
+
+  { "question": "How do I contact support?", "answer": "Use the 'Contact Support' link in the footer or your dashboard. Provide your registered email and a clear description of the issue." },
+  { "question": "How fast does support respond?", "answer": "Response times vary by queue. Urgent clinical questions should go directly to your clinic." },
+
+  { "question": "Does the platform use my data for AI predictions?", "answer": "Not by default. Any predictive feature will be opt-in and follow privacy policies and clinic approvals." },
+  { "question": "Will my data be used for research?", "answer": "Only with your explicit consent and in anonymized form per policy and law." },
+
+  { "question": "Can I use the system on my phone?", "answer": "Yes. The site is mobile-friendly. For best results, use an up-to-date browser." },
+  { "question": "Which browsers are supported?", "answer": "Recent versions of Chrome, Firefox, Edge, and Safari are supported." },
+
+  { "question": "What if my clinic isn’t listed?", "answer": "Ask your clinic to apply for verification. You can proceed once they are onboarded." },
+  { "question": "How do I know a clinic is verified?", "answer": "Verified clinics have a badge in the system and are listed under 'Partner Clinics'." },
+
+  { "question": "Can donors donate to multiple recipients?", "answer": "Clinic policies may limit donation frequency and total family count. Consult your clinic." },
+  { "question": "Is there a maximum number of donations per donor?", "answer": "Limits vary by clinic and law to reduce consanguinity risk. Your clinic will advise the cap." },
+
+  { "question": "Can recipients filter donors?", "answer": "Yes. Use search filters like age range and medical screening results. Availability depends on clinic policy." },
+  { "question": "What if no donors match my criteria?", "answer": "You’ll see close-match suggestions. Consider adjusting filters or checking back later." },
+
+  { "question": "Are blood type and Rh factor considered?", "answer": "They may be considered by clinics during compatibility checks. Provide accurate data in your profile." },
+  { "question": "Do lifestyle factors matter for donors?", "answer": "Clinics may screen lifestyle factors. Follow their guidance for eligibility." },
+
+  { "question": "Is face photo required for donors?", "answer": "Usually no identifying photos are shown to recipients. Clinics store identity data securely." },
+  { "question": "Can recipients see donor photos?", "answer": "Non-identifying images or icons may be shown. Identifying photos are generally not shared." },
+
+  { "question": "Can I change my role from recipient to donor?", "answer": "Roles are managed by admins. Contact support if you need a role change; medical screening may be required." },
+  { "question": "What documents do I need as a recipient in Sri Lanka?", "answer": "Typically NIC/passport and relevant medical reports. Your clinic will specify the exact list." },
+
+  { "question": "How do I know if a donor passed screening?", "answer": "Admin-reviewed screening results are reflected in donor profiles. For details, ask your clinic." },
+  { "question": "Does platform approval replace medical advice?", "answer": "No. Always follow your doctor’s guidance for medical decisions." },
+
+  { "question": "What is the success rate of donor insemination?", "answer": "Success rates vary depending on recipient age, fertility factors, and clinic expertise. Intrauterine insemination (IUI) with donor sperm can have 10–20% success per cycle; in-vitro fertilization (IVF) can be higher." },
+
+{ "question": "Can donor sperm be used for IVF and IUI?", "answer": "Yes. Donor sperm can be used in both intrauterine insemination (IUI) and in-vitro fertilization (IVF) procedures, depending on the clinic and recipient’s medical needs." },
+
+{ "question": "How long can donor sperm be stored?", "answer": "When stored in liquid nitrogen at cryobank facilities, donor sperm can remain viable for decades without significant quality loss." },
+
+{ "question": "Does sperm quality decline with donor age?", "answer": "Yes. While donors are accepted up to 39 years old in most programs, motility and morphology can decline with age, affecting fertility potential." },
+
+{ "question": "Can recipients request donors with specific blood type?", "answer": "Yes, some clinics allow matching based on ABO and Rh factor to reduce risk of blood incompatibility issues during pregnancy." },
+
+{ "question": "What medical tests are required for donors in Sri Lanka?", "answer": "Typical tests include semen analysis, infectious disease screening (HIV, Hepatitis B & C, syphilis), thalassemia screening, and other inheritable condition panels." },
+
+{ "question": "Do clinics test for STDs in donors?", "answer": "Yes. Donors are screened for sexually transmitted diseases before acceptance and periodically if they continue donating." },
+
+{ "question": "Can a donor with a family history of genetic disease be accepted?", "answer": "Usually no. Most clinics exclude donors with a strong family history of severe inheritable diseases to protect recipient and child health." },
+
+{ "question": "What is CMV status and why is it important?", "answer": "Cytomegalovirus (CMV) is a common virus. CMV-negative recipients are often advised to choose CMV-negative donors to avoid primary infection risk in pregnancy." },
+
+{ "question": "Do donors undergo mental health evaluation?", "answer": "Some clinics include psychological screening to ensure donors understand the process and have no mental health conditions that could be relevant to offspring." },
+
+{ "question": "How is sperm quality measured?", "answer": "Clinics use semen analysis to check volume, concentration, motility, and morphology. WHO reference values are often used." },
+
+{ "question": "How many donations can a donor give in a year?", "answer": "Clinics may limit donations to control the number of offspring per donor and avoid genetic clustering in the population." },
+
+{ "question": "What is sperm washing?", "answer": "Sperm washing is a lab process to separate healthy, motile sperm from the semen fluid before IUI or IVF." },
+
+{ "question": "Can frozen sperm be as effective as fresh sperm?", "answer": "Yes, if handled correctly. Cryopreservation slightly reduces motility, but pregnancy rates remain high with good samples." },
+
+{ "question": "Can recipients use both donor sperm and their partner’s sperm?", "answer": "Yes, in some cases known as split insemination or IVF with mixed sperm, but it requires legal and medical counseling." },
+
+{ "question": "Can donor sperm be used after vasectomy?", "answer": "Yes. A recipient can use donor sperm regardless of the partner’s fertility status, including after vasectomy." },
+
+{ "question": "Is there a quarantine period for donor sperm?", "answer": "In many countries, donor sperm is quarantined for 6 months and the donor retested before the sample is released. Policies vary by clinic and jurisdiction." },
+
+{ "question": "What happens if a donor tests positive for a disease after donation?", "answer": "The affected samples are destroyed, and recipients who used them may be contacted for follow-up testing." },
+
+{ "question": "Can recipients choose donors based on physical traits?", "answer": "Many clinics allow filtering by non-identifying characteristics such as height, skin tone, and eye color, within the limits of ethical guidelines." },
+
+{ "question": "Do lifestyle habits affect donor acceptance?", "answer": "Yes. Donors with high-risk behaviors, smoking, excessive alcohol, or drug use may be rejected due to potential effects on sperm quality and offspring health." },
+
+{ "question": "Can donor sperm be used for surrogacy?", "answer": "Yes. Donor sperm can be combined with an egg and placed in a surrogate, subject to local surrogacy laws." },
+
+{ "question": "Do recipients need to take fertility medication before using donor sperm?", "answer": "It depends on the treatment plan. Some recipients undergo natural cycle IUI, others use stimulation medication for higher success rates." },
+
+{ "question": "What is the role of genetic counseling in donor selection?", "answer": "Genetic counselors help recipients understand risks and select donors whose genetic profile minimizes the chance of recessive disease in offspring." }
+]
