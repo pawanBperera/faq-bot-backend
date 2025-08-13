@@ -36,7 +36,7 @@ class FAQRetrievalModel:
         )
         self.matrix = self.vectorizer.fit_transform(self.questions)
 
-        # cache for faster cold starts (optional)
+
         joblib.dump(self.vectorizer, self.model_dir / "vectorizer.joblib")
         joblib.dump(self.matrix,    self.model_dir / "matrix.joblib")
 
@@ -53,7 +53,7 @@ class FAQRetrievalModel:
         best_idx = int(np.argmax(sims))
         best_score = float(sims[best_idx])
 
-        # Build alternatives (excluding best)
+
         alt_indices = np.argsort(-sims).tolist()
         alt_indices = [i for i in alt_indices if i != best_idx][:top_k-1]
         alternatives = [{"question": self.questions[i], "score": float(sims[i])} for i in alt_indices]

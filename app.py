@@ -6,10 +6,10 @@ from model.retrieval import FAQRetrievalModel
 
 app = FastAPI()
 
-# CORS config
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Replace with frontend URL if needed
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -18,7 +18,7 @@ app.add_middleware(
 FAQ_PATH = "faq.json"
 model = FAQRetrievalModel(FAQ_PATH, threshold=0.35)  # tweak threshold if needed
 
-# Fallback: we still load raw JSON in case we want exact lookup (optional)
+# Fallback: we still load raw JSON in case we want exact lookup
 with open(FAQ_PATH, "r", encoding="utf-8") as f:
     faq_data = json.load(f)
 
@@ -38,13 +38,13 @@ def ask_question(query: dict):
     if result and result.get("answer"):
         return {"answer": result["answer"]}
 
-    # 2) If low confidence, try your old exact match as a backup
+
     ui_lower = user_input.strip().lower()
     for item in faq_data:
         if ui_lower == item["question"].strip().lower():
             return {"answer": item["answer"]}
 
-    # 3) Final fallback
+    #  fallback
     return {"answer": "Sorry, I don't understand the question. Please try again or contact support."}
 
 @app.post("/reload")
